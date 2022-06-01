@@ -1,13 +1,13 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import Display from "./components/Display";
+import Header from "./components/Header";
+import Routes from "./routes";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
-        <Display />
-        <Counter />
+        <Routes />
       </header>
     </div>
   );

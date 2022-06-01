@@ -8,7 +8,7 @@ const Display = () => {
   return (
     <>
       <h1>{counter}</h1>
-      <h2>{user}</h2>
+      <h2>{user.name}</h2>
     </>
   );
 };
